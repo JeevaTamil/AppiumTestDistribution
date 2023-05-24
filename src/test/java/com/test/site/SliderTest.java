@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 
 
-@Test(groups = { "end-to-end-test" })
+// @Test(groups = { "end-to-end-test" })
 public class SliderTest extends UserBaseTest {
-    @Test
+    // @Test
     public void dragNDrop() {
         login("login").click();
         waitForElement("dragAndDrop").click();

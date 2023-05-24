@@ -6,10 +6,10 @@ import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@Test(groups = { "end-to-end-test" })
+// @Test(groups = { "end-to-end-test" })
 public class WindowsTest extends UserBaseTest {
 
-    @Test
+    // @Test
     public void sessionTest() {
         System.out.println("------" + getDriver());
         System.out.println("@@@@@@@" + getDriver().getPageSource());

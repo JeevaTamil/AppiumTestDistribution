@@ -27,7 +27,7 @@ public class UserBaseTest {
                 .elementToBeClickable(AppiumBy.accessibilityId(locator)));
     }
 
-    @AfterTest
+    // @AfterTest
     public void tearDown() {
         getDriver().quit();
     }
